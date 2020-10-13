@@ -1,0 +1,15 @@
+input {
+  display: inline-block;
+  width: 72%;
+  height: 20px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  line-height: 18px;
+  padding: 9px 0 7px 8px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #dbdbdb;
+  background-color: #fafafa;
+  opacity: .4;
+  font-weight: bold;
+}

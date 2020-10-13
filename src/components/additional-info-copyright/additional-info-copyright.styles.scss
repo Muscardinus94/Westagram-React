@@ -1,0 +1,26 @@
+.additional-info-copyright {
+  height: 100px;
+  margin-top: 20px;
+  width: 80%;
+
+  .additional-info {
+    height: 50%;
+    width: 115%;
+
+    p {
+      font-size: 11px;
+      color: #c7c7c7;
+      margin: 0;
+    }
+  }
+
+  .copyright {
+    height: 30%;
+
+    p {
+      font-size: 11px;
+      color:#c7c7c7;
+      margin: 0;
+    }
+  }
+}

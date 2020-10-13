@@ -1,0 +1,19 @@
+nav {
+  border-bottom: 1px solid #dbdbdb;
+  background-color: white;
+  height: 54px;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+
+  > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    > div {
+      display: inline-block;
+    }
+  }
+}

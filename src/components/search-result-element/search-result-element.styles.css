@@ -1,0 +1,70 @@
+.search-id-result-element {
+  height: 50px;
+  border-bottom: 1px solid #dbdbdb;
+  position: relative;
+}
+
+.search-id-result-element > span {
+  position: absolute;
+  height: 50%;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.search-id-result-element:hover {
+  background-color: #dbdbdb3f;
+}
+
+.search-id-result-element a {
+  color: black;
+  text-decoration: none;
+}
+
+.search-profile-container {
+  width: 21%;
+  height: 100%;
+  display: inline-block;
+  position: relative;
+}
+
+.search-profile-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.search-profile-image img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.info-container {
+  width: 75%;
+  height: 100%;
+  display: inline-block;
+  position: relative;
+}
+
+.info-container span{
+  position: absolute;
+  display: block;
+  font-size: 13px;
+  margin-left: 10px;
+}
+
+.info-container span:first-child {
+  top: 30%;
+}
+
+.info-container span:last-child {
+  top: 60%;
+}

@@ -1,0 +1,22 @@
+.logo {
+  width: 344px;
+  height: 30px;
+  box-sizing: border-box;
+  padding-left: 15px;
+
+  &:active {
+    filter: opacity(50%);
+  }
+
+  .text-logo {
+    border-left: 1px solid #dbdbdb;
+    margin-left: 10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+  }
+
+  img {
+    height: 100%;
+    cursor: pointer;
+  }
+}

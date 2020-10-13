@@ -1,0 +1,67 @@
+.profile {
+  height: 70px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  position: relative;
+  cursor: pointer;
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+  .profile-img-container {
+    width: 85px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+
+    div {
+      position: absolute;
+      width: 56px;
+      height: 56px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 50%;
+      overflow: hidden;
+
+      img {
+        width: 104%;
+        height: 104%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+
+  .profile-info-container {
+    width: calc(100% - 85px);
+    height: 100%;
+    position: absolute;
+    left: 85px;
+    top: 0;
+
+    div {
+      height: 15px;
+      width: 100%;
+      text-align: left;
+      margin-left: 2px;
+      line-height: 15px;
+    }
+
+    .profile-id {
+      font-size: 14px;
+      margin-top: 25px;
+      font-weight: 550;
+    }
+
+    .profile-name {
+      margin-top: 2px;
+      font-size: 11px;
+      color: #8e8e8e;
+    }
+  }
+}

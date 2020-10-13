@@ -1,0 +1,77 @@
+.personal-profile-sub-menu {
+  position: absolute;
+  width: 230px;
+  height: 157px;
+  border: 1px solid #dbdbdb;
+  border-top: 0;
+  top: 160%;
+  right: -120%;
+  border-radius: 8px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  z-index: -2;
+}
+
+.personal-profile-sub-menu:after {
+  content: '';
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: -9px;
+  right: 15%;
+  transform: rotate(45deg);
+  background-color: #fff;
+  border-top: 1px solid #dbdbdb;
+  border-left: 1px solid #dbdbdb;
+  z-index: -1;
+}
+
+.personal-profile-sub-menu > div {
+  height: 25%;
+  display: flex;
+}
+
+.personal-profile-sub-menu > div:hover {
+  background-color: #eee;
+  opacity: .4;
+}
+
+.personal-profile-sub-menu > div .icon-container {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.personal-profile-sub-menu > div .icon-container i {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.personal-profile-sub-menu > div .info-container {
+  width: 80%;
+  font-size: 14px;
+  position: relative;
+}
+
+.info-container span {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.personal-profile-sub-menu-logout {
+  position: relative;
+  border-top: 1px solid #8e8e8e4a;
+}
+
+.personal-profile-sub-menu-logout span{
+  position: absolute;
+  font-size: 14px;
+  line-height: 18px;
+  top: 50%;
+  left: 16px;
+  transform: translateY(-50%);
+}
